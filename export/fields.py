@@ -263,7 +263,6 @@ class Field(forms.fields.Field):
         super(Field, self).__init__(
             required=False,
             *args, **kwargs)
-        )
 
 
 class FileField(BasicTextField):
